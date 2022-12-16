@@ -1,0 +1,24 @@
+var bankName;
+console.log(`--------Before Initialization--------`);
+console.log(`${bankName}`);
+console.log(`--------After Initialization--------`);
+bankName = `SBI Bank`;
+console.log(`${bankName} ${typeof bankName}`);
+console.log(`===================================================`);
+var marks = `90%`;
+console.log(`${typeof marks}`);
+console.log(`===================================================`);
+var isWorking;
+console.log(`--------Before Initialization--------`);
+console.log(`${isWorking}`);
+console.log(`--------After Initialization--------`);
+isWorking = true;
+console.log(`${isWorking}`);
+console.log(`"type of isworking: ${typeof isWorking}`);
+console.log(`===================================================`);
+var totalCount = `Hundred and Seven`;
+console.log(`${totalCount} ${typeof totalCount}`);
+totalCount = 107;
+console.log(`${totalCount} ${typeof totalCount}`);
+console.log(`===================================================`);
+
